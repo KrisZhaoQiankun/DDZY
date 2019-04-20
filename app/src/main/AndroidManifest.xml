@@ -14,7 +14,8 @@
         <activity android:name=".SocialSecurityActivity" />
         <activity android:name=".TaxDeputyActivity" />
         <activity android:name=".FinancialSharingActivity" />
-        <activity android:name=".ChiefActivity" />
+        <activity android:name=".ChiefActivity"
+            android:label="大智移云"></activity>
         <activity android:name=".RegistActivity" />
         <activity android:name=".MainActivity"
             android:label="大智移云">
