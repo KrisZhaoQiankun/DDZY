@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         mBtnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if ("kris".equals(mEtUsername.getText().toString())&&"123".equals(mEtPassword.getText().toString())){
+                if ("user".equals(mEtUsername.getText().toString())&&"123".equals(mEtPassword.getText().toString())){
                     Intent intent = new Intent(MainActivity.this,ChiefActivity.class);
                     startActivity(intent);
                 }else {
