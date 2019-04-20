@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConsultActivity"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="咨询"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="关注公众号咨询"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:layout_width="258dp"
+        android:layout_height="258dp"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:background="@drawable/icon_qrcode"
+        android:text="一键报税"
+        android:scaleType="fitCenter"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+    <EditText
+        android:id="@+id/et_bbs"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:hint="留言框"
+        android:textSize="18sp"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/bg_textview"/>
+    <Button
+        android:id="@+id/btn_bbs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="发送"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/bg_login"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
