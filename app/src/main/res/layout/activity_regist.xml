@@ -8,8 +8,9 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tv_regist_title"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:text="用户注册"
         android:textSize="25sp"
@@ -63,6 +64,7 @@
         android:layout_height="50dp">
 
         <Button
+            android:id="@+id/btn_login"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -71,6 +73,7 @@
             android:background="@drawable/bg_login"/>
 
         <Button
+            android:id="@+id/btn_regist"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
