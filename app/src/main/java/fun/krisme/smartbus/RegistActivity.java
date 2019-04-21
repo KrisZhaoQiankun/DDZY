@@ -25,8 +25,8 @@ public class RegistActivity extends AppCompatActivity {
     private TextView mTvTitle;
     private EditText mEtUsername,mEtPassword,mEtRePassword;
     private Button mBtnLogin,mBtnRegist;
-    private boolean busername = true;
-    private boolean bpassword = true;
+    private boolean busername = false;
+    private boolean bpassword = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
