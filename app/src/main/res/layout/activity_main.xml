@@ -66,5 +66,9 @@
             android:layout_marginLeft="20dp"/>
 
     </LinearLayout>
+    <TextView
+        android:id="@+id/main_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

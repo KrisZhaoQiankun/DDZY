@@ -31,7 +31,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:textSize="18sp"
-            android:text="税务共享"
+            android:text="财务共享"
             android:background="#FACD91"
             android:layout_marginRight="10dp"/>
 
